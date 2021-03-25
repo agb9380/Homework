@@ -11,7 +11,7 @@ public class Lotto1 {
 		ArrayList list = new ArrayList();
 
 		for (int i = 1; i <= 6; i++) {
-			list.add((r.nextInt(44) + 1));
+			list.add((r.nextInt(44) + 1)); //중복값 체크해야함
 		}
 		return list;
 	}
